@@ -114,6 +114,7 @@ export default function CreativePage() {
       </section>
 
       {/* ৪. এক্স ব্যানার ডিজাইন (X-Banner) */}
+      {/* ৪. এক্স ব্যানার ডিজাইন (X-Banner) */}
       <section className="py-16 px-6 border-t border-border">
         <div className="flex justify-between items-center mb-6 max-w-6xl mx-auto">
           <h2 className="text-xl md:text-2xl font-bold">🎯 X-Banner Designs</h2>
@@ -123,30 +124,35 @@ export default function CreativePage() {
           </div>
         </div>
         <div id="xbanner-scroll" className="flex overflow-x-auto space-x-8 pb-8 snap-x snap-mandatory scrollbar-none max-w-6xl mx-auto">
-          <div className="min-w-[260px] md:min-w-[300px] snap-center flex flex-col gap-3">
-             <div className="h-[450px] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
+          
+          <div className="min-w-[200px] md:min-w-[240px] snap-center flex flex-col gap-3">
+             <div className="aspect-[2/5] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
                <img className="w-full h-full object-cover" src="/creative/xbanner-1.jpg" alt="CSE Fest 2026 X-Banner" />
              </div>
              <p className="text-sm text-muted-foreground leading-relaxed">Designed a striking X-banner for "CSE Fest 2026," a major national festival co-organized by the Notre Dame University Bangladesh (NDUB) Computer Club and the Department of Computer Science and Engineering, highlighting the event's top segments.</p>
           </div>
-          <div className="min-w-[260px] md:min-w-[300px] snap-center flex flex-col gap-3">
-             <div className="h-[450px] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
+
+          <div className="min-w-[200px] md:min-w-[240px] snap-center flex flex-col gap-3">
+             <div className="aspect-[2/5] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
                <img className="w-full h-full object-cover" src="/creative/xbanner-2.jpg" alt="Debate Seminar X-Banner" />
              </div>
              <p className="text-sm text-muted-foreground leading-relaxed">Produced a professional X-banner for an insightful seminar held by the Notre Dame University Bangladesh (NDUB) Debating Club, visualizing the intersection of debate skills with personal and professional success.</p>
           </div>
-          <div className="min-w-[260px] md:min-w-[300px] snap-center flex flex-col gap-3">
-             <div className="h-[450px] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
+
+          <div className="min-w-[200px] md:min-w-[240px] snap-center flex flex-col gap-3">
+             <div className="aspect-[2/5] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
                <img className="w-full h-full object-cover" src="/creative/xbanner-3.jpg" alt="MUN Debate X-Banner" />
              </div>
              <p className="text-sm text-muted-foreground leading-relaxed">Crafted an elegant vertical display banner for the MUN debate workshop, a collaborative initiative by the Notre Dame University Bangladesh (NDUB) Debating Club and English Club.</p>
           </div>
-          <div className="min-w-[260px] md:min-w-[300px] snap-center flex flex-col gap-3">
-             <div className="h-[450px] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
+
+          <div className="min-w-[200px] md:min-w-[240px] snap-center flex flex-col gap-3">
+             <div className="aspect-[2/5] bg-card rounded-xl border border-border overflow-hidden shadow-lg relative">
                <img className="w-full h-full object-cover" src="/creative/xbanner-4.jpg" alt="Booth X-Banner" />
              </div>
              <p className="text-sm text-muted-foreground leading-relaxed">Developed a minimalist and persuasive X-banner for the Notre Dame University Bangladesh (NDUB) Debating Club booth. Centered around the copy "Be the next leader" to drive audience curiosity and membership.</p>
           </div>
+
         </div>
       </section>
 
