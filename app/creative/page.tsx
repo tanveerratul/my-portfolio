@@ -13,12 +13,35 @@ export default function CreativePage() {
   return (
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden pb-20">
       
-      {/* ১. ইন্ট্রো ভিডিও সেকশন */}
-      <section className="h-screen w-full flex flex-col items-center justify-center relative p-6">
+    {/* ১. ইন্ট্রো সেকশন (Showreel কমেন্ট করা আছে এবং টেক্সট ইন্ট্রো দেওয়া হয়েছে) */}
+    <section className="min-h-[80vh] w-full flex flex-col items-center justify-center relative p-6 text-center">
+        
+        {/* যখন আপনার শো-রিল রেডি হবে, তখন নিচের কমেন্ট মুছে শুধু ভিডিওর নামটা বসিয়ে দেবেন */}
+        {/* 
         <div className="w-full max-w-4xl h-[60vh] rounded-2xl overflow-hidden shadow-2xl border border-border">
           <video src="/creative/intro-video.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
+        </div> 
+        */}
+
+        {/* নতুন টেক্সট-বেজড ইন্ট্রোডাকশন */}
+        <div className="max-w-3xl mx-auto space-y-6 mt-8 animate-in fade-in slide-in-from-bottom-5 duration-1000">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
+            Hi, I'm <span className="text-primary">Tanveer Ratul</span>
+          </h1>
+          <p className="text-lg md:text-2xl text-foreground font-medium">
+            Creative Graphic Designer & Passionate Video Editor
+          </p>
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            A visual storyteller with 8 years of experience elevating e-commerce brands, university clubs, and YouTube channels with top-tier visuals. From cinematic YouTube masterpieces to viral product promos—you name it, I make it.
+          </p>
+          <div className="pt-6">
+            <span className="inline-block px-6 py-3 rounded-full bg-primary/10 text-primary font-semibold italic text-lg border border-primary/20">
+              "Let’s make it."
+            </span>
+          </div>
         </div>
-        <p className="mt-6 text-muted-foreground animate-bounce text-sm flex flex-col items-center gap-2">
+
+        <p className="mt-20 text-muted-foreground animate-bounce text-sm flex flex-col items-center gap-2">
           <span>↓ Scroll down to explore works by aspect ratio</span>
         </p>
       </section>
